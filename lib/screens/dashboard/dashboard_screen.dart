@@ -36,6 +36,26 @@ class DashboardScreen extends StatelessWidget {
                 ),
               ),
             ),
+            const SizedBox(height: 16),
+            Card(
+              color: AppColors.cardBackground,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Center(
+                  child: Text(
+                    'Test Card',
+                    style: TextStyle(
+                      color: AppColors.primaryText,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
